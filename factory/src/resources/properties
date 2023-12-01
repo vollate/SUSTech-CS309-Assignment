@@ -1,2 +1,0 @@
-computerDao=dao.MysqlComputerDao
-staffDao=dao.SqlServerStaffDao
