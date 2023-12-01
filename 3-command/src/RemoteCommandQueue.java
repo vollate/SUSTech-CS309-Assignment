@@ -14,12 +14,20 @@ public class RemoteCommandQueue {
 
 
     public void commandExecute() {
+        if (commands.isEmpty()) {
+            System.out.println("No command to execute!");
+            return;
+        }
         for (CMD command : commands) {
             command.execute();
         }
     }
 
     public void commandUndo() {
+        if (commands.isEmpty()) {
+            System.out.println("No command to undo!");
+            return;
+        }
         for (CMD command : commands) {
             command.undo();
         }
