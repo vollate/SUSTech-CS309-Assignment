@@ -7,3 +7,4 @@
 |Observer|100/100|
 |Factory|100/100|
 |Command|100/100|
+|Adapter|100/100|
