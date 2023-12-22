@@ -8,3 +8,4 @@
 |Factory|100/100|
 |Command|100/100|
 |Adapter|100/100|
+|Refactoring&Strategy|100/100|
